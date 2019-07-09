@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Name:"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_weight="1.4"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="left"
+                    android:layout_weight="3.6"
+                    android:hint="User Name"
+                    android:id="@+id/name"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1.4"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="Father Name:"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="left"
+                    android:layout_weight="3.6"
+                    android:hint="User FatherName"
+                    android:id="@+id/fatherName"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1.4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:text="Class:"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="3.6"
+                    android:layout_width="0dp"
+                    android:gravity="left"
+                    android:hint="User Class"
+                    android:id="@+id/userClass"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1.4"
+                    android:layout_width="0dp"
+                    android:text="Roll No.:"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="3.4"
+                    android:layout_width="0dp"
+                    android:gravity="left"
+                    android:hint="User RollNumber"
+                    android:id="@+id/rollNum"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1.4"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="0dp"
+                    android:text="Email:"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="3.6"
+                    android:layout_width="0dp"
+                    android:gravity="left"
+                    android:hint="User Email"
+                    android:id="@+id/email"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="5"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:text="Student Id:"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_weight="1.4"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="3.6"-->
+                    <!--android:gravity="left"-->
+                    <!--android:hint="User Id"-->
+                    <!--android:id="@+id/id"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</LinearLayout>-->
+            <LinearLayout
+                android:weightSum="5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1.4"
+                    android:text="Phone No.:"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3.8"
+                    android:gravity="left"
+                    android:hint="User phone"
+                    android:id="@+id/phone"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_height="35dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:text="Delete User"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/delete"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:background="@drawable/button_background"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:text="Update User"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/updateRecord"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"> #5F4C0B</color>
+    <color name="colorPrimaryDark">#DBA901</color>
+    <color name="colorAccent">#F3E2A9</color>
+    <color name="request">	#FFA500</color>
+    <color name="accept">#228B22</color>
+    <color name="deny">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#0b0b0b</color>
+    <color name="green">	#32CD32</color>
+    <color name="red">	#FFA07A</color>
+    <color name="grey">#efefee</color>
+    <color name="orange">#FFFFA07A</color>
+</resources>

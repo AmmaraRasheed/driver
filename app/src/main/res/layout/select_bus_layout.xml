@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:id="@+id/linearBus"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bus"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/busNumber"
+        android:textStyle="bold"
+        android:hint="bus 1234"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="20dp"
+        android:layout_height="60dp" />
+</LinearLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".updateChallan.UpdateChallanMonthly">
+    <include layout="@layout/app_bar_layout" android:id="@+id/mainPageBar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Challan Form"
+            android:gravity="center"
+            android:id="@+id/heading"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="5dp"
+            android:textSize="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Dated:"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="0dp"
+                android:hint="Select Your Date"
+                android:layout_weight="3"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/dated"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Due Date:"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="0dp"
+                android:hint="Select Your Date"
+                android:layout_weight="3"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/duedate1"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Bus Fee:"
+                android:textSize="20dp"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="0dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="3"
+                android:hint="Enter buss fee:"
+                android:id="@+id/busFee"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18dp"
+                android:layout_weight="2"
+                android:text="Bus Card Fee:"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="0dp"
+                android:hint="Enter bus Card Fee"
+                android:id="@+id/busCardFee"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Transport Fund:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint="Enter Transport Fund"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/transportFund"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimary"
+                android:text="Total of Fund:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:hint="Enter Total Fund"
+                android:id="@+id/totalFund"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Grand Total:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint="Enter Grand Total"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/grandTotal"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:onClick="Validat_data"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:background="@drawable/submit"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Submit"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/submit"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:typeface="serif"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

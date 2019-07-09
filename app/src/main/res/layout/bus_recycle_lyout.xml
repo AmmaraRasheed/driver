@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:weightSum="5"
+    android:paddingTop="15dp"
+    android:id="@+id/linerlayout1"
+    android:paddingBottom="5dp"
+    android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="0dp"
+           android:hint="S.so"
+           android:textStyle="bold"
+           android:layout_weight="1"
+           android:id="@+id/recycle_serial"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="3.5"
+           android:id="@+id/recycle_stop"
+           android:text="band khana road"
+           android:textSize="15dp"
+           android:layout_marginLeft="5dp"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="0.5"
+           android:background="@drawable/delete"
+           android:id="@+id/delete_stop"
+           android:layout_marginLeft="5dp"
+           android:layout_height="25dp" />
+</LinearLayout>

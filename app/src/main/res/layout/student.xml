@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="Registration Form"
+
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Name"
+        android:id="@+id/name"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Student Status"
+        android:id="@+id/status1"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimary"
+        android:hint="Enter Father Name"
+        android:id="@+id/father_name"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Roll number"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/roll_no"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password" />
+    </android.support.design.widget.TextInputLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter class"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/user_class"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Valid Email"
+        android:id="@+id/email"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Phome Number"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/phone_number"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter CNIC Number"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/CNIC"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:weightSum="5"
+        android:layout_height="40dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2.4"
+            android:text="Register"
+            android:layout_marginTop="1dp"
+            android:id="@+id/register"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_background"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2.4"
+            android:text="Cancel"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cancel"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/button_background"
+            android:layout_marginBottom="10dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

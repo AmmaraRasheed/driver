@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NewBus.CreateNewBus">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Create New Bus"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="enter email"
+        android:layout_marginTop="10dp"
+        android:id="@+id/email_bus"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="enter password"
+        android:id="@+id/password_bus"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="enter bus Nuber"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bus_number"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Create Bus"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:onClick="CreateBus"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+</LinearLayout>
